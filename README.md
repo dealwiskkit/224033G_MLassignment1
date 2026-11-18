@@ -3,7 +3,7 @@
 **Module:** Machine Learning and Pattern Recognition, Hands-on Project
 **Goal:** Predict tomorrow's maximum temperature in Colombo, Sri Lanka, using ensemble learning (Bagging, Boosting, Stacking and a Hybrid model), and present the results in an interactive Streamlit dashboard.
 
-- 🔗 Live dashboard: _add your Streamlit link here_
+- 🔗 Live dashboard: https://224033gmlassignment1-ofuf76zqb7ckfdulamtjbs.streamlit.app/
 - 📓 Notebook: `224033G_assignment1.ipynb`
 
 ## Dataset
