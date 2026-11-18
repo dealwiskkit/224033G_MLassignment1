@@ -1,0 +1,31 @@
+[theme]
+font = "sans serif"
+baseFontSize = 18
+
+[theme.light]
+primaryColor = "#0b6fb8"
+backgroundColor = "#eef6fc"
+secondaryBackgroundColor = "#d7ebfa"
+textColor = "#12324a"
+
+[theme.dark]
+primaryColor = "#4db8e8"
+backgroundColor = "#0e1b26"
+secondaryBackgroundColor = "#16293a"
+textColor = "#e6f1f8"
+
+# Explicit sidebar text colors for legibility in both appearance modes.
+# Streamlit applies these to sidebar widgets and their inherited text.
+[theme.light.sidebar]
+textColor = "#12324a"
+backgroundColor = "#d7ebfa"
+
+[theme.dark.sidebar]
+textColor = "#e6f1f8"
+backgroundColor = "#16293a"
+
+[client]
+# Keep only theme selection and Streamlit version; hide Deploy,
+# Clear cache, Print and Record screen without fragile CSS selectors.
+# The built-in Rerun menu item is hidden; a Refresh button is in the sidebar.
+toolbarMode = "viewer"
