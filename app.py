@@ -145,7 +145,7 @@ def to_long_df(frame):
     return out.rename(columns={out.columns[0]: "date"})
 
 
-# ---------- sidebar navigation (UI only; the five original pages are unchanged) ----------
+# ---------- sidebar navigation ----------
 NAV_ITEMS = [
     ("📊 Data", "📊  Weather data", "nav_data"),
     ("🏆 Models", "🏆  Compare models", "nav_models"),
@@ -188,8 +188,6 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
     st.divider()
-    # Streamlit minimal mode hides the built-in Rerun item.
-    # This provides a user-friendly replacement without changing the model.
     if st.button("↻  Refresh dashboard", key="nav_refresh", use_container_width=True):
         st.rerun()
 
